@@ -1,0 +1,15 @@
+#include <stdio.h>
+//DO NGOC KIEU ANH
+int main()
+{
+    printf("So co 2 chu so la boi cua 7 la: \n");
+    
+    for( int i = 10; i <= 99; i++)
+    {
+        if ( i % 7 == 0)
+        {
+            printf("\t%d",i);
+        }
+    }
+    return 0;
+}
